@@ -4,6 +4,7 @@
 !app/cache/.gitkeep
 !app/logs/.gitkeep
 
+
 # Cache and logs (Symfony3)
 /var/cache/*
 /var/logs/*
@@ -25,6 +26,7 @@
 # Assets and user uploads
 /web/bundles/
 /web/uploads/
+/web/assetic
 
 # Assets managed by Bower
 /web/assets/vendor/
@@ -38,3 +40,7 @@
 
 # Composer PHAR
 /composer.phar
+
+#IDE
+.idea
+
